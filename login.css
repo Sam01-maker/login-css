@@ -87,6 +87,64 @@ li{
 } 
 
 
+/* Estilos Formulario de login */
+
+form{
+    padding: 1.5em;
+    font-size:1.5em ;
+    margin: 3em auto;
+    display: flex;
+    align-items: flex-end;
+    gap:8px;
+    flex-wrap: wrap;
+    background-color: black;
+    color: aliceblue;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+input{
+   padding: 15px;
+   width: 100%;
+   background-color: black;
+   border: none;
+   border-bottom:1px solid white;
+  
+}
+
+.email{
+    flex-grow: 3;
+    flex-basis: 170px;
+    
+
+}
+
+.pasword{
+    flex-grow: 1;
+    flex-basis: 120px;
+
+}
+
+.submit {
+    flex-grow: 1;
+    flex-basis: 70px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    
+} 
+
+label{
+    font-weight:bold;
+    align-items: flex-start;
+}
+
+
+
+
+
+
+
 @media screen and (max-width:768px) {
     
     body{
