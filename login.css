@@ -101,21 +101,24 @@ form{
     color: aliceblue;
     border: 1px solid white;
     border-radius: 5px;
+    width: 80%;
+    box-shadow: 3px 5px 2px rgb(178, 178, 240);
 }
 
 input{
    padding: 15px;
    width: 100%;
    background-color: black;
+   color: whitesmoke;
    border: none;
    border-bottom:1px solid white;
-  
+   margin-top:10px;
+   
 }
 
 .email{
     flex-grow: 3;
     flex-basis: 170px;
-    
 
 }
 
@@ -131,8 +134,14 @@ input{
     padding: 10px;
     background-color: white;
     border-radius: 5px;
+    color:black;
     
 } 
+
+.sumit:hover{
+    background-color:black;
+    color:white;
+}
 
 label{
     font-weight:bold;
